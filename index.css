@@ -40,4 +40,12 @@ a:hover{
     display: flex;
     justify-content: space-around;
  }
+ .form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 20px;
+    
+ }
+   
  
