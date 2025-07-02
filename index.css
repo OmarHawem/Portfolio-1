@@ -1,51 +1,185 @@
 body{
-    background-color: #515a5a;
+    background-color:#1F1C2C ;
+    background: linear-gradient(135deg, #1F1C2C, #928DAB);
+}
+* {
+    color: #fff;
+    text-decoration: none;
+    /* لا تضع background-color هنا */
 }
 .head{
-    background-color:#34495e;
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content:space-around;
-    align-items: center ;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 5px solid #928DAB;
     border-radius: 10px;
-    color: white;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-   
-}
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 150px;
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
-    transition-duration: 0.5s;
+    background: linear-gradient(135deg, #1F1C2C, #928DAB);
     
 }
-.about-container{
-    margin-right: 10px;
-    margin-left: 10px;
-    display: flex;
-    justify-content:space-around;
-    gap: 20px;
-}
-a:hover{
-    color: #aeb6bf;
-    }
- .experience{
+ul{ 
+    
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 35px;
     display: flex;
     justify-content: space-around;
- }
- .form{
+    gap: 35px;
+}
+.about{
+    margin-top: 40px;
+}
+#about-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    border-left: 10px solid #928DAB;
+    border-right: 10px solid #928DAB;
+    border-radius: 10px;
+}
+.background{
     display: flex;
     flex-direction: column;
-    width: 20%;
-    margin-left: 20px;
-    
- }
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #928DAB;
+    border-right:5px solid #928DAB;
+    border-radius:50px ;
+}
+#project-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.project-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+     border-top:5px solid #928DAB;
+}
+.project-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+   padding: 20px;
+    border: 2px solid #928DAB;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1F1C2C, #928DAB);
+}
+.service-container{
+    background : linear-gradient(135deg,  #928DAB, #1F1C2C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border-top:5px solid #928DAB;
+    border-left:5px solid #928DAB;
+    border-right:5px solid #928DAB;
+    border-radius: 50px;
    
- 
+}
+.service-item{
+    background: linear-gradient(135deg, #928DAB, #1F1C2C);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+#Service-title{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contact-title{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border-top:15px solid #ffffff;
+
+    
+}
+.form{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #928DAB, #1F1C2C);
+    border-radius: 50px 0 50px  0; }
+
+.form input,
+.form textarea {
+    width: 90%;      
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #928DAB;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.form button {
+    color: black;
+    background-color: #FFD700;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.form button:hover {
+    background-color: #928DAB;   /* لون عند المرور بالفأرة */
+    color: #fff;
+    cursor: pointer;
+}
+footer {
+    margin-top: 50px;
+    background-color: #1F1C2C;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    color: #1F1C2C; 
+}
+a:hover {
+    color: #fff;
+}
